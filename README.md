@@ -43,7 +43,26 @@
 
 </div>
 
-- Learn One Framework
-   - React 
-     - Router
-     - Redux
+These are the tables and their columns.
+
+- guestbook
+   - comment_id 
+   - comment
+   - name
+
+<div align="center">
+  
+| comment_id | comment | name |
+| :-----------: | :----------: | :----------: | :----------: |
+| 1 | This is a test comment. | test |
+</div>
+
+- users
+   - user_id 
+   - first_name
+   - last_name
+   - user 
+   - password
+   - avatar
+   - last_login
+   - failed_login

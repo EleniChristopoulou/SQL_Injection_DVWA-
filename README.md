@@ -52,7 +52,7 @@ These are the tables and their columns.
 
 <div align="center">
   
-| comment_id | comment | name |
+## Guestbook
 | comment_id | comment | name |
 | :-----------: | :----------: | :----------: |
 | 1 | This is a test comment. | test |

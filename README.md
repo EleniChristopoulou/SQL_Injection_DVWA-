@@ -43,7 +43,10 @@
 
 </div>
 
-These are the tables and their columns.
+These are the tables, their columns and the data we extracted.
+
+The query I used: <br>
+``` ' UNION SELECT comment_id, comment FROM guestbook UNION SELECT name, null FROM guestbook # ```
 
 - guestbook
    - comment_id 
@@ -68,3 +71,12 @@ These are the tables and their columns.
    - avatar
    - last_login
    - failed_login
+ 
+<div align="center">
+  
+## users
+| user_id | first_name | last_name |
+| :-----------: | :----------: | :----------: |
+| 1 | This is a test comment. | test |
+
+</div>

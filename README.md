@@ -10,7 +10,8 @@
   Head to `SQL Injection` tab.
 <p align="center"><img width="420" height="300" alt="image" src="https://github.com/user-attachments/assets/f8b6d3cb-2f65-4cd0-805b-fe7f4cb9fe83" /> </p>
 
-  By default website can only return two options, without any further data being displayed, based whether the User exists or not as stated.
+  So let's try out the value 1. Okay, we can see we have an output, trying out alll the value from 1-5 we can conclude that probably there are 5 users. <br> 
+  When we submit a value that is above 5 we get no result.
 
 | ID | Result | User | 
 | :-----------: | :----------: | :----------: |

@@ -42,3 +42,8 @@
 | 3 | Based on each table we get the columns  | `' UNION SELECT column_name, null FROM information_schema.columns WHERE table_name='guestbook' #` | <img width="426" height="282" alt="image" src="https://github.com/user-attachments/assets/8e1a7cd4-8fa0-44dd-bc86-c273ba1463e7" /> |
 
 </div>
+
+- Learn One Framework
+   - React 
+     - Router
+     - Redux

@@ -46,7 +46,9 @@
 These are the tables, their columns and the data we extracted.
 
 The query I used: <br>
-``` ' UNION SELECT comment_id, comment FROM guestbook UNION SELECT name, null FROM guestbook # ```
+``` 
+  ' UNION SELECT comment_id, comment FROM guestbook UNION SELECT name, null FROM guestbook #
+```
 
 - guestbook
    - comment_id 

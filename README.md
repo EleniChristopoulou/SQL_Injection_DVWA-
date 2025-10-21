@@ -38,7 +38,7 @@
     ' OR 1=1 #
   ```
 
-  <p align="center"><img width="918" height="888" alt="image" src="https://github.com/user-attachments/assets/625727af-8531-4a42-b771-fba3c82e091b" />
+  <p align="center"><img width="500" height="450" alt="image" src="https://github.com/user-attachments/assets/625727af-8531-4a42-b771-fba3c82e091b" />
 </p>
 
 ## Step 5

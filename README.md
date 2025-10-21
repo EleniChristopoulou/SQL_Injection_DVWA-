@@ -11,11 +11,10 @@
 <p align="center">IMAGE</p>
 
   By default website can only return two options, without any further data being displayed, based whether the User exists or not as stated.
-| ID | Result | 
-| :------------------: | :----------: |
-| 1 | <img width="180" height="100" alt="image" src="https://github.com/user-attachments/assets/8b1303ea-d01a-4470-849d-3396f57022af" /> |
-| 5 | <img width="180" height="100" alt="image" src="https://github.com/user-attachments/assets/5e43f551-a677-4d43-b6a7-1f1bbf70b2ee" />
- | 
+| ID | Result | User | 
+| :-----------: | :----------: | :----------: |
+| 1 | <img width="180" height="100" alt="image" src="https://github.com/user-attachments/assets/8b1303ea-d01a-4470-849d-3396f57022af" /> | Bob Smith |
+| 5 | <img width="180" height="100" alt="image" src="https://github.com/user-attachments/assets/5e43f551-a677-4d43-b6a7-1f1bbf70b2ee" /> | admin admin |
 
 
 ## Step 3

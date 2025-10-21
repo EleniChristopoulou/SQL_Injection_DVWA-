@@ -27,4 +27,5 @@
   Now we are ready to initiate some logs. Back to our DVWA site on the `SQL Injection` tab we submit any type of value, our goal is just to see the log.
 
   Since I submited the value 1, I receive the respected query, within the id hold the value 1. By following the steps depicted within the picture, we have sent our log to the repeater tab in Burp. There will be able to forward and modify the request.
-  <p align="center">IMAGE</p>
+  <p align="center"><img width="958" height="738" alt="image" src="https://github.com/user-attachments/assets/c8a38567-f1d4-4523-b584-6219512e10a1" />
+</p>

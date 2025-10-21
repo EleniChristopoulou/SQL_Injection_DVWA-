@@ -11,6 +11,15 @@
 <p align="center">IMAGE</p>
 
   By default website can only return two options, without any further data being displayed, based whether the User exists or not as stated.
-| Option A | Option B | 
+| ID | Result | 
 | :------------------: | :----------: |
-| IMAGE | IMAGE | 
+| 1 | <img width="180" height="100" alt="image" src="https://github.com/user-attachments/assets/8b1303ea-d01a-4470-849d-3396f57022af" /> |
+| 5 | <img width="180" height="100" alt="image" src="https://github.com/user-attachments/assets/5e43f551-a677-4d43-b6a7-1f1bbf70b2ee" />
+ | 
+
+
+## Step 3
+  Now we are ready to initiate some logs. Back to our DVWA site on the `SQL Injection` tab we submit any type of value, our goal is just to see the log.
+
+  Since I submited the value 1, I receive the respected query, within the id hold the value 1. By following the steps depicted within the picture, we have sent our log to the repeater tab in Burp. There will be able to forward and modify the request.
+  <p align="center">IMAGE</p>

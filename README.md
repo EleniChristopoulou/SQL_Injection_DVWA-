@@ -8,7 +8,7 @@
   Now it is the time where we interact with site in order to discover actual functionality.<br>
   It is important to pay attention on the input and the output.<br>
   Head to `SQL Injection` tab.
-<p align="center">IMAGE</p>
+<p align="center"><img width="898" height="639" alt="image" src="https://github.com/user-attachments/assets/f8b6d3cb-2f65-4cd0-805b-fe7f4cb9fe83" /> </p>
 
   By default website can only return two options, without any further data being displayed, based whether the User exists or not as stated.
 

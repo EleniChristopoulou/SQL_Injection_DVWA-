@@ -12,12 +12,13 @@
 
   So let's try out the value 1. Okay, we can see we have an output, trying out alll the value from 1-5 we can conclude that probably there are 5 users. <br> 
   When we submit a value that is above 5 we get no result.
-
+  
+<div align="center">
 | ID | Result | User | 
 | :-----------: | :----------: | :----------: |
 | 1 | <img width="180" height="100" alt="image" src="https://github.com/user-attachments/assets/8b1303ea-d01a-4470-849d-3396f57022af" /> | Bob Smith |
 | 5 | <img width="180" height="100" alt="image" src="https://github.com/user-attachments/assets/5e43f551-a677-4d43-b6a7-1f1bbf70b2ee" /> | admin admin |
-| 6 | <img width="180" height="100" alt="image" src="https://github.com/user-attachments/assets/5caf2470-5cdd-4141-b911-7c0e70a50bc3" /> | Does_Not_Exist |
+| 6 | <img width="180" height="100" alt="image" src="https://github.com/user-attachments/assets/5caf2470-5cdd-4141-b911-7c0e70a50bc3" /> | Does_Not_Exist | </div>
 
 ## Step 3
   Now we are ready to initiate some logs. Back to our DVWA site on the `SQL Injection` tab we submit any type of value, our goal is just to see the log.
